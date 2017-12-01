@@ -1,0 +1,13 @@
+$font-italic: Lato-BoldItalic;
+$bg-color: #5c6bc0;
+
+.footer{
+	height: 160px;
+	width: auto;
+	background-color: $bg-color;
+	font-family: $font-italic;
+	font-size: 36px;
+	color: #4a569a;
+	text-align: center;
+	line-height: 160px;
+}
