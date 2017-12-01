@@ -13,6 +13,22 @@ $bg-color: #f7f9fc;
 	margin: 0 auto;
 	width: 952px;
 	line-height: 187px;
-}
+	float: left;
+	}
+	
+	&__menu{
+	display: inline;
+	float: right;
+	margin-right: 80px;
+	margin-top: 15px;
+	font-size: 15px;
+	font-family: $font-regular;
+	}
+
+
+
 }
 
+ul{
+	list-style-type: none;
+)
