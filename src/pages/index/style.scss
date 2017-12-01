@@ -59,34 +59,20 @@ $font-regular: Lato-Regular;
 	margin-left: 64px;
 	margin-bottom: 60px;
 	}
-}
-
-.header{
 
 }
-/*
-.pages-post{
-	&__submit{
-	inline: block;
-	width: 189px;
-	height: 53px;
-	font-family: $font-bold;
-	text-transform: uppercase;
-	margin-top: 30px;
-	font-size: 20px;
-	font-weight: 600;
-	color: #5c6bc0;
-	border: 1px solid #ffffff;
-	background-color: #ffffff;
-	margin-bottom: 68px;
-	}
 
-	&__divider{
-	width: 755px;
-  	height: 2px;
-  	background: #eeeeee;
-  	margin-left: 98px;
-  	margin-bottom: 44px;
-	}
+a{
+	color: #b2b2b2;
+	text-decoration: none;
 }
-*/
+
+a:hover{
+	color: #6674c4;
+	text-decoration: underline;
+}
+
+a:active{
+	color: #6674c4;
+	text-decoration: none;
+}
