@@ -1,6 +1,7 @@
 $bg-color: #f7f9fc;
 $font-bold: Lato-Bold;
 $font-regular: Lato-Regular;
+$font-italic: Lato-Italic;
 
 .container{
 	width: auto;
@@ -74,7 +75,9 @@ $font-regular: Lato-Regular;
 	font-family: $font-regular;
 	}
 
-
+	&__images{
+	max-width:100%
+	}
 }
 
 a{
@@ -95,4 +98,21 @@ a:active{
 
 .last-post{
 	margin: 0 auto 100px;
+
+	&__text{
+	padding: 0 70px 20px 97px;
+	font-family: $font-regular;
+	font-size: 17px;
+	color: #333333;
+	}
+
+	&__text-italics{
+	font-family: $font-italic;
+	font-size: 25px;
+	color: #7f7f7f;
+	}
+
+	&__header-date{
+	padding-top: 48px;
+	}
 }

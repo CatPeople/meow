@@ -15,3 +15,9 @@
     src: url('./fonts/Lato-Regular.eot');
     src: local('Lato-Regular'), url('./fonts/Lato-Regular.woff') format('woff'), url('./fonts/Lato-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Lato-Italic';
+    src: url('./fonts/Lato-Italic.eot');
+    src: local('Lato-Italic'), url('./fonts/Lato-Italic.woff') format('woff'), url('./fonts/Lato-Italic.ttf') format('truetype');
+}
