@@ -27,6 +27,12 @@ $font-bold: Lato-Bold;
 		li{
 		display: inline;
 		margin-right: 35px;
+			a{
+			font-size: 16px;
+			font-family: $font-bold;
+			text-transform: uppercase;
+			color: #333333;
+			}
 		}
 
 		li:last-child{
@@ -36,9 +42,4 @@ $font-bold: Lato-Bold;
 
 }
 
-a{
-	font-size: 16px;
-	font-family: $font-bold;
-	text-transform: uppercase;
-	color: #333333;
-}
+
