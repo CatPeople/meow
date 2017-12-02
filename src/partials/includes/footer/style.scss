@@ -1,6 +1,6 @@
 $font-italic: Lato-BoldItalic;
-$font-bold: LatoBold;
-$font-regular: LatoRegular;
+$font-bold: Lato-Bold;
+$font-regular: Lato-Regular;
 $bg-color: #5c6bc0;
 
 .footer{
@@ -50,6 +50,7 @@ $bg-color: #5c6bc0;
 							а когда пытаюсь что-то сделать - ниче не работает*/
 		a{
 			display: inline-block;
+			margin-right: 22px;
 		}
 	}
 	

@@ -60,6 +60,7 @@ $font-italic: Lato-Italic;
 	font-family: $font-regular;
 	font-size: 17px;
 	color: #333333;
+	line-height: 30px
 	}
 
 	&__submit{
@@ -119,12 +120,14 @@ a:active{
 	font-family: $font-regular;
 	font-size: 17px;
 	color: #333333;
+	line-height: 30px
 	}
 
 	&__text-italics{
 	font-family: $font-italic;
 	font-size: 25px;
 	color: #7f7f7f;
+	line-height: 38px
 	}
 
 	&__header-date{
