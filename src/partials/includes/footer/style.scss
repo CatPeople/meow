@@ -45,9 +45,9 @@ $bg-color: #5c6bc0;
 	}
 
 	&__sprite{
-	padding: 0 0 69px 0;  /*то что тут написано - бред, 
-							но по-другому его вообще не видно
-							а когда пытаюсь что-то сделать - ниче не работает*/
+	padding: 0 0 69px 0;  
+						
+						
 		a{
 			display: inline-block;
 			margin-right: 22px;
@@ -83,4 +83,35 @@ $bg-color: #5c6bc0;
     background-position: -145px -11px;
 	}
 
+}
+
+@media (max-width: 320px) {
+	.footer {
+		&__menu {
+			li {
+				display: block;
+				margin-bottom: 14px;
+			}
+
+			li:last-child {
+				display: none;
+			}
+		}
+
+		&__title {
+			padding-bottom: 58px;
+		}
+
+
+		&__copyright {
+			width: 244px;
+			margin: 0 auto;
+			line-height: 23px;
+		}
+
+		&__team {
+			display: inline-block;
+		}
+
+	}
 }

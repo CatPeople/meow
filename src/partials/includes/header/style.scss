@@ -16,8 +16,8 @@ $font-bold: Lato-Bold;
 	line-height: 187px;
 	}
 
-	&__{
-	float: left;
+	&__mobile-menu {
+		display: none;
 	}
 	
 	&__menu{
@@ -43,3 +43,27 @@ $font-bold: Lato-Bold;
 }
 
 
+@media (max-width: 320px) {
+
+	.header {
+		&__container {
+			width: 280px;
+			text-align: right;
+		}
+
+		&__menu {
+			display: none;
+		}
+
+		&__title {
+			display: block;
+			float: left;
+		}
+
+		&__mobile-menu {
+			display: inline;
+		}
+	}
+
+
+}
