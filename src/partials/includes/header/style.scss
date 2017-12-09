@@ -43,9 +43,23 @@ $font-bold: Lato-Bold;
 }
 
 
+@media (max-width: 768px) {
+
+	.header {
+		width: 768px;
+		&__container {
+			width: 700px;
+		}
+
+	}
+
+
+}
+
 @media (max-width: 320px) {
 
 	.header {
+		width: 320px;
 		&__container {
 			width: 280px;
 			text-align: right;
