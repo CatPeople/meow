@@ -75,13 +75,13 @@ $font-regular: Lato-Regular;
 	margin-bottom: 17px;
 	font-family: $font-regular;
 	font-size: 20px;
-	background: url(../images/radio.png) left 3px no-repeat;
+	background: url(/pages/profile/images/radio.png) left 3px no-repeat;
 	min-height: 25px;
 	padding-left: 25px;
 	}
 
 	&__input-date {
-	background-image: url(../images/icon.png);
+	background-image: url(/pages/profile/images/icon.png);
 	background-position: 318px 13px;
 	background-repeat: no-repeat;
 	}
@@ -93,7 +93,7 @@ input[type='radio']{
 }
 
 input[type='radio']:checked + label{
-	background: url(../images/radio-checked.png) left 3px no-repeat;
+	background: url(/pages/profile/images/radio-checked.png) left 3px no-repeat;
 }
 
 button:hover{
@@ -119,16 +119,16 @@ input:focus{
 @media only screen and (min-device-pixel-ratio: 1.5) {
 	.profile-form {
 	  	&__input-date {
-			background-image: url(../images/icon@2x.png);
+			background-image: url(/pages/profile/images/icon@2x.png);
 		}
 
 		&__label-radio{
-			background-image: url(../images/radio@2x.png);
+			background-image: url(/pages/profile/images/radio@2x.png);
 		}
 	}
 
 	input[type='radio']:checked + label{
-		background-image: url(../images/radio-checked@2x.png);
+		background-image: url(/pages/profile/images/radio-checked@2x.png);
 	}
 
 }
