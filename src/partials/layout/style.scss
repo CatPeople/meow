@@ -40,6 +40,7 @@ input:focus{
 @media (max-width: 768px) {
 
 	.container{
+		width: 768px;
 		min-width: auto
 
 	}
@@ -49,6 +50,7 @@ input:focus{
 @media (max-width: 320px) {
 
 	.container{
+		width: 320px;
 		min-width: auto
 
 	}
