@@ -14,6 +14,7 @@ body {
 .container{
 	width: auto;
 	background-color: $bg-color;
+	min-width: 1020px;
 }
 
 button:hover{
@@ -34,4 +35,22 @@ button:active{
 input:focus{
 	outline: none !important;
     border: 1px solid #7d89cd;
+}
+
+@media (max-width: 768px) {
+
+	.container{
+		min-width: auto
+
+	}
+
+}
+
+@media (max-width: 320px) {
+
+	.container{
+		min-width: auto
+
+	}
+
 }

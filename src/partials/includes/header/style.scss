@@ -2,6 +2,7 @@
 	width: auto;
 	height: 187px;
 	background-color: $bg-color;
+	min-width: 1020px;
 
 	&__container{
 	font-family: $font-bold;
@@ -42,6 +43,7 @@
 
 	.header {
 		width: 768px;
+		min-width: auto;
 		&__container {
 			width: 700px;
 		}
@@ -55,6 +57,7 @@
 
 	.header {
 		width: 320px;
+		min-width: auto;
 		&__container {
 			width: 280px;
 			text-align: right;

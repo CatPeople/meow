@@ -1,9 +1,4 @@
 
-.container{
-	width: auto;
-	background-color: $bg-color;
-}
-
 .post{
 	width: 952px;
 	background-color: #ffffff;
@@ -48,6 +43,7 @@
 	font-size: 14px;
 	color: #bdbdbd;
 	padding-top: 58px;
+	margin: 0;
 	}
 
 	&__text{
